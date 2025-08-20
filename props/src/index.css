@@ -1,0 +1,20 @@
+.student{
+  border: 1px solid brown;
+  padding: 10px;
+  margin: 10px;
+  background-color: #eac4c4;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  border-width: 1px;
+  box-shadow: 2px 2px 5px rgba(88, 63, 63, 0.393);
+  height: 150px;
+  width: 150px;
+}
+.student .hi{
+  font-weight: bold;
+}
+.student:hover{
+  background-color: gray;
+  box-shadow: hsl(10, 57%, 35%);
+}
